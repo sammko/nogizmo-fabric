@@ -8,11 +8,21 @@
   "authors": [
     "sammko"
   ],
+  "contact": {
+    "homepage": "https://github.com/sammko/nogizmo-fabric",
+    "issues": "https://github.com/sammko/nogizmo-fabric/issues",
+    "email": "samuel@cavoj.net"
+  },
   "license": "MIT",
   "mixins": [
-    "nogizmo.mixins.json"
+    {
+      "config": "nogizmo.mixins.json",
+      "environment": "client"
+    }
   ],
-
+  "custom": {
+    "modmenu:clientsideOnly": true
+  },
   "depends": {
     "fabricloader": ">=0.7.4",
     "minecraft": "1.16.x"

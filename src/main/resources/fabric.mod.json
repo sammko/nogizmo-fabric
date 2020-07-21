@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nogizmo",
+  "version": "${version}",
+
+  "name": "No Debug Gizmo",
+  "description": "Replaces the F3 gizmo crosshair with the default one.",
+  "authors": [
+    "sammko"
+  ],
+  "license": "MIT",
+  "mixins": [
+    "nogizmo.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  }
+}
